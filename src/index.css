@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* COLORS — ROYAL ORCHID THEME (not blue, not white) */
+    --background: 300 20% 96%;
+    /* warm soft gray-pink */
+    --foreground: 270 15% 18%;
+    /* deep neutral purple */
+
+    --card: 300 20% 98%;
+    --card-foreground: 270 15% 18%;
+
+    --popover: 300 20% 98%;
+    --popover-foreground: 270 15% 18%;
+
+    --primary: 268 70% 55%;
+    /* royal purple */
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 268 70% 65%;
+
+    --secondary: 300 25% 92%;
+    --secondary-foreground: 270 25% 25%;
+
+    --muted: 300 20% 90%;
+    --muted-foreground: 270 15% 40%;
+
+    --accent: 285 80% 88%;
+    /* orchid highlight */
+    --accent-foreground: 268 70% 40%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 290 20% 85%;
+    --input: 290 20% 85%;
+    --ring: 268 70% 55%;
+
+    /* GRADIENTS */
+    --gradient-primary: linear-gradient(135deg, hsl(268 70% 55%), hsl(285 65% 60%));
+    --gradient-hero: linear-gradient(180deg, hsl(268 70% 55% / 0.1), transparent);
+
+    /* SHADOWS */
+    --shadow-elegant: 0 4px 20px -2px hsl(268 70% 55% / 0.15);
+    --shadow-glow: 0 0 40px hsl(285 70% 70% / 0.25);
+
+    /* CHART COLORS */
+    --chart-1: 268 70% 55%;
+    --chart-2: 285 75% 50%;
+    --chart-3: 320 65% 55%;
+    --chart-4: 300 50% 45%;
+    --chart-5: 260 50% 40%;
+
+    /* SIDEBAR */
+    --sidebar: 275 25% 20%;
+    /* deep plum */
+    --sidebar-foreground: 300 20% 96%;
+    --sidebar-primary: 268 70% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 285 40% 85%;
+    --sidebar-accent-foreground: 275 25% 20%;
+    --sidebar-border: 275 20% 35%;
+    --sidebar-ring: 268 70% 55%;
+
+    /* FONTS */
+    --font-sans: DM Sans, sans-serif;
+    --font-serif: Lora, serif;
+    --font-mono: IBM Plex Mono, monospace;
+
+    /* RADIUS / SPACING / TRACKING */
+    --tracking-normal: 0em;
+    --spacing: 0.25rem;
+    --radius: 0.5rem;
+
+    /* ELEVATION */
+    --shadow-2xs: 0px 3px 5px hsl(270 10% 10% / 0.05);
+    --shadow-xs: 0px 4px 8px -1px hsl(270 10% 10% / 0.05);
+    --shadow-sm: 0px 4px 8px -1px hsl(270 10% 10% / 0.1), 0px 1px 2px -2px hsl(270 10% 10% / 0.1);
+    --shadow: 0px 4px 8px -1px hsl(270 10% 10% / 0.1), 0px 1px 2px -2px hsl(270 10% 10% / 0.1);
+    --shadow-md: 0px 4px 10px -1px hsl(270 10% 10% / 0.12);
+    --shadow-lg: 0px 6px 14px -2px hsl(270 10% 10% / 0.12);
+    --shadow-xl: 0px 8px 20px -2px hsl(270 10% 10% / 0.15);
+    --shadow-2xl: 0px 10px 24px -2px hsl(270 10% 10% / 0.2);
+  }
+
+  /* DARK MODE — PURPLE NIGHT */
+  .dark {
+    --background: 270 25% 10%;
+    --foreground: 300 20% 96%;
+
+    --card: 270 25% 14%;
+    --card-foreground: 300 20% 96%;
+
+    --popover: 270 25% 14%;
+    --popover-foreground: 300 20% 96%;
+
+    --primary: 268 70% 65%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 268 70% 75%;
+
+    --secondary: 270 20% 20%;
+    --secondary-foreground: 300 20% 96%;
+
+    --muted: 270 20% 22%;
+    --muted-foreground: 300 15% 70%;
+
+    --accent: 285 60% 55%;
+    --accent-foreground: 300 20% 96%;
+
+    --destructive: 0 80% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 270 20% 25%;
+    --input: 270 20% 25%;
+    --ring: 268 70% 65%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(268 70% 65%), hsl(285 60% 70%));
+    --gradient-hero: linear-gradient(180deg, hsl(268 70% 60% / 0.15), transparent);
+
+    --shadow-elegant: 0 4px 24px -2px hsl(268 70% 60% / 0.2);
+    --shadow-glow: 0 0 45px hsl(285 70% 70% / 0.35);
+
+    /* Dark charts */
+    --chart-1: 268 70% 65%;
+    --chart-2: 285 75% 60%;
+    --chart-3: 320 65% 60%;
+    --chart-4: 300 55% 50%;
+    --chart-5: 260 50% 50%;
+
+    --sidebar: 270 25% 12%;
+    /* dark plum */
+    --sidebar-foreground: 300 20% 96%;
+    --sidebar-primary: 268 70% 65%;
+    --sidebar-primary-foreground: 270 25% 12%;
+    --sidebar-accent: 280 20% 30%;
+    --sidebar-accent-foreground: 300 20% 96%;
+    --sidebar-border: 270 20% 25%;
+    --sidebar-ring: 268 70% 65%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans), 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    letter-spacing: var(--tracking-normal);
+  }
+}
+
+/* Animations */
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
