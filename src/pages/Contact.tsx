@@ -60,27 +60,16 @@ export function Contact() {
       icon: MapPin,
       title: "Visit Us",
       details: [
-        "Nexus Velocity Pvt Ltd",
+        "Code Geeks Pvt Ltd",
         "Koramangala, Bangalore",
         "Karnataka 560034, India",
-      ],
-    },
-    {
-      icon: Phone,
-      title: "Call Us",
-      details: [
-        "+91 80 1234 5678",
-        "+91 80 8765 4321",
-        "Mon - Fri: 9 AM - 6 PM",
       ],
     },
     {
       icon: Mail,
       title: "Email Us",
       details: [
-        "info@nexusvelocity.com",
-        "careers@nexusvelocity.com",
-        "support@nexusvelocity.com",
+        "hr@codegeeks.co.in"
       ],
     },
     {
@@ -242,7 +231,7 @@ export function Contact() {
             <Card className="border-2 overflow-hidden">
               <div className="aspect-video relative">
                 <iframe
-                  title="Nexus Velocity Location"
+                  title="Code Geeks Location"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.198533045788!2d77.62710787482059!3d12.9352238873661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1403e593ee67%3A0x5d3d54097d6e8432!2sKoramangala%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1708600000000!5m2!1sen!2sin"
                   width="100%"
                   height="100%"

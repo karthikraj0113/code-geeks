@@ -83,7 +83,7 @@ export function Home() {
               </span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground">
-              Nexus Velocity is your trusted IT partner in Bangalore,
+              Code Geeks is your trusted IT partner in Bangalore,
               delivering innovative software solutions that drive business
               growth.
             </p>
@@ -165,7 +165,7 @@ export function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold">
-                Why Choose Nexus Velocity?
+                Why Choose Code Geeks?
               </h2>
               <p className="text-lg text-muted-foreground">
                 We combine technical expertise with business acumen to deliver

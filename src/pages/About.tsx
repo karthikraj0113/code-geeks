@@ -51,7 +51,7 @@ export function About() {
         <div className="container mx-auto px-4 py-20 md:py-32">
           <div className="max-w-3xl mx-auto text-center space-y-6 animate-fade-in">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
-              About <span className="text-primary">Nexus Velocity</span>
+              About <span className="text-primary">Code Geeks</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground">
               Empowering businesses through technology innovation since 2008

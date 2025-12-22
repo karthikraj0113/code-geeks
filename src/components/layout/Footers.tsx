@@ -20,43 +20,16 @@ export default function Footers() {
             <div className="flex items-center space-x-2 justify-center md:justify-start">
               <img
                 src="/public/favicon.png"
-                alt="Nexus Velocity"
+                alt="Code Geeks"
                 className="h-10 w-10"
               />
-              <span className="text-lg font-bold">Nexus Velocity</span>
+              <span className="text-lg font-bold">Code Geeks</span>
             </div>
 
             <p className="text-sm text-muted-foreground max-w-xs">
               Leading IT solutions provider in Bangalore, delivering innovative
               technology services to businesses worldwide.
             </p>
-
-            <div className="flex space-x-3 justify-center md:justify-start">
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-colors"
-              >
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-colors"
-              >
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-colors"
-              >
-                <Facebook className="h-5 w-5" />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -119,12 +92,8 @@ export default function Footers() {
                 <span>Bangalore, Karnataka, India</span>
               </li>
               <li className="flex items-center justify-center md:justify-start space-x-2">
-                <Phone className="h-4 w-4 flex-shrink-0" />
-                <span>+91 80 1234 5678</span>
-              </li>
-              <li className="flex items-center justify-center md:justify-start space-x-2">
                 <Mail className="h-4 w-4 flex-shrink-0" />
-                <span>info@nexusvelocity.com</span>
+                <span>hr@codegeeks.co.in</span>
               </li>
             </ul>
           </div>
