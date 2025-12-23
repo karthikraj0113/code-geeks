@@ -26,7 +26,7 @@ export default function Navbar() {
             {/* <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground transition-transform group-hover:scale-105">
               <Code2 className="h-6 w-6" />
             </div> */}
-            <img src="/public/favicon.png" alt="Code Geeks" className="h-10 w-10" />
+            <img src="/favicon.png" alt="Code Geeks" className="h-10 w-10" />
             <span className="text-xl font-bold text-foreground">Code Geeks</span>
           </Link>
 

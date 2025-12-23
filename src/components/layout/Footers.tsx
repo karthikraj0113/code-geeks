@@ -19,7 +19,7 @@ export default function Footers() {
           <div className="space-y-4 flex flex-col items-center md:items-start">
             <div className="flex items-center space-x-2 justify-center md:justify-start">
               <img
-                src="/public/favicon.png"
+                src="/favicon.png"
                 alt="Code Geeks"
                 className="h-10 w-10"
               />
